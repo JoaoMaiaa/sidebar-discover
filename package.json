@@ -1,0 +1,22 @@
+{
+  "name": "sidebar-discover",
+  "version": "1.0.0",
+  "description": "desafo da rocketseat de sidebar",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMaiaa/sidebar-discover.git"
+  },
+  "author": "João Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoMaiaa/sidebar-discover/issues"
+  },
+  "homepage": "https://github.com/JoaoMaiaa/sidebar-discover#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0"
+  }
+}
