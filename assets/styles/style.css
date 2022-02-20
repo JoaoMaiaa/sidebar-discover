@@ -33,7 +33,7 @@ body{
 .sidebar{
     min-height:100vh;
     max-height:100%;
-    width:200px;
+    width:36px;
     padding:0px 8px;
 }
 
@@ -45,17 +45,19 @@ body{
 }
 
 .ul-list a:first-child{
-    margin:auto 0;
+    margin: 0 1px;
 }
 
 .ul-list i{
     display:flex;
     justify-content:center;
     padding:10px;
+    /* margin: auto 0 0 0; */
 }
 
 .ul-list li{
     margin-left:6px;
+    display:none;
 }
 
 .ul-list a:hover{
@@ -65,8 +67,13 @@ body{
 .ul-list a:hover:first-child{
     background-color:#18c29c;
 }
+
 .none{
-    display:none;
+    display:none!important;
+}
+
+.block{
+    display:block!important;
 }
 
 .menu{
@@ -78,4 +85,12 @@ body{
 
 .fa-bars{
     cursor:pointer;
+}
+
+.fa-plus{
+    display:none!important;
+}
+
+.animation{
+    transition:0.8s;
 }
