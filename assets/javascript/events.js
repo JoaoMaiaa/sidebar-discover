@@ -6,6 +6,8 @@ menu.addEventListener('click', () => {
 
     let element = document.querySelectorAll('li')
 
+    let img = document.getElementById('img')
+
     let iconPlus = document.getElementById('icon-plus')
 
     let sidebar = document.getElementById('sidebar')
@@ -14,6 +16,7 @@ menu.addEventListener('click', () => {
 
         sidebar.style.width = '200px'
         sidebar.classList.add('animation')
+        img.classList.remove('none')
         element.forEach((e) => {
             e.classList.add('animation')
             e.classList.remove('none')
@@ -23,8 +26,8 @@ menu.addEventListener('click', () => {
     } else {
 
         sidebar.style.width = '36px'
-
         sidebar.classList.add('animation')
+        img.classList.add('none')
         element.forEach((e) => {
             e.classList.add('none')
             e.classList.add('animation')

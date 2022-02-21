@@ -57,6 +57,8 @@ body{
 
 .ul-list li{
     margin-left:6px;
+    transition:0.8s!important;
+    opacity:1!important;
 }
 
 .ul-list a:hover{
@@ -85,11 +87,43 @@ body{
 }
 
 .animation{
-    opacity:1;
-    transition:0.3s!important;
-    display:block;
+    transition:0.5s!important;
 }
 
-.animation-none{
-    transition:none!important;
+.last-li{
+    position:absolute;
+    padding:5px 0px;
+    bottom:0;
+}
+
+.last-li img{
+    width:30px;
+    height:30px;
+    border-radius: 8px;
+    margin:auto 0;
+    background-size:cover;
+    background-position: center;
+}
+
+.last-li li{
+    font-size:12px;
+    padding-right:40px
+}
+
+.last-li span{
+    font-size:8px;
+    margin:0;
+}
+
+.last-li i{
+    margin:auto 0 0 auto;
+}
+
+.flex{
+    display:flex;
+}
+
+h1{
+    font-size:25px;
+    margin:0px 5px;
 }
