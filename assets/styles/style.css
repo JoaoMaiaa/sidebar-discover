@@ -69,13 +69,9 @@ body{
 
 .none{
     display:none!important;
-    transition:0.5s;
+    opacity:0!important;
+    transition:0.8s!important;
 }
-
-.block{
-    display:block!important;
-    transition: width 0.5s;
-} 
 
 .menu{
     display:flex;
@@ -89,5 +85,11 @@ body{
 }
 
 .animation{
-    transition:0.5s;
+    opacity:1;
+    transition:0.3s!important;
+    display:block;
+}
+
+.animation-none{
+    transition:none!important;
 }

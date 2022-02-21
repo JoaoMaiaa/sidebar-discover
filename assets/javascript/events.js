@@ -1,6 +1,8 @@
 let menu = document.getElementById('icon-menu')
 
-menu.addEventListener('click', ()=>{
+menu.addEventListener('click', () => {
+
+    // alert('ok')
 
     let element = document.querySelectorAll('li')
 
@@ -8,27 +10,27 @@ menu.addEventListener('click', ()=>{
 
     let sidebar = document.getElementById('sidebar')
 
-    if(sidebar.style.width == '36px'){
+    if (sidebar.style.width == '36px') {
 
         sidebar.style.width = '200px'
-        iconPlus.classList.remove('none')
         sidebar.classList.add('animation')
-
-        element.forEach((e)=>{
-            e.classList.remove('none')
+        element.forEach((e) => {
             e.classList.add('animation')
+            e.classList.remove('none')
+            iconPlus.classList.remove('none')
         })
 
-    }else{
+    } else {
 
         sidebar.style.width = '36px'
-        iconPlus.classList.add('none')
+
         sidebar.classList.add('animation')
-        element.forEach((e)=>{
+        element.forEach((e) => {
             e.classList.add('none')
             e.classList.add('animation')
+            iconPlus.classList.add('none')
         })
 
     }
-    
+
 })
